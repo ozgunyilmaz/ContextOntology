@@ -9,7 +9,7 @@ The advantages of modeling the context using an ontology are providing knowledge
 The context ontology is modeled through classes, object properties, data type properties and restrictions. *Entity* class represents things that can be related to a context. From Dey’s [9] definition, an entity can be a person, a place or an object. *Entity* class has four subclasses: *Person*, *Place*, *Object* and ComputationalEntity. *ComputationalEntity* has many subclasses such as *Agent*, *SmartPhone*, *MobileDevice*, *Computer* and etc.
 
 ![alt tag](/ont/doc/images/Figure.png) 
-Fig. 1. A simplified view of context ontology
+                      Fig. 1. A simplified view of context ontology
 
 *Entity* is related to *Context* class. Zone, location, time, weather, social situation, device, activity, network and profile are subclasses of *Context* class. They are modeled with ontology classes for flexibility and extensibility reasons.
 
@@ -25,12 +25,20 @@ The context ontology deals with quality of context similar to [4]. Physical sens
 
 ## References ##
 [1]	T. R. Gruber, "A translation approach to portable ontology specifications," Knowledge Acquisition, vol. 5, pp. 199-220, 1993.
+
 [2]	M. D. Rodriguez, R. F. Navarro, J. Favela, and J. Hoey, "An Ontological Representation Model to Tailor Ambient Assisted Interventions for Wandering," in AAAI Fall Symposium: Artificial Intelligence for Gerontechnology.
+
 [3]	S. C. for Biomedical Informatics Research, "Protégé," ed, 2017.
+
 [4]	T. Gu, X. H. Wang, H. K. Pung, and D. Q. Zhang, "An Ontology-based Context Model in Intelligent Environments," in Proceedings of Communication Networks and Distributed Systems Modeling and Simulation Conference, pp. 270-275.
+
 [5]	R. Hervás, J. Bravo, and J. Fontecha, "A Context Model based on Ontological Languages: a Proposal for Information Visualization," Journal of Universal Computer Science, vol. 16, pp. 1539-1555, 2010.
-[6]	E. C. J. Kim, "An Ontology-Based Context Model in a Smart Home," [6]	E. C. J. Kim, "An Ontology-Based Context Model in a Smart Home," M. L. Gavrilova, Gervasi Osvaldo, Kumar Vipin, Tan C. J. Kenneth, Taniar David, Laganá Antonio, Mun Youngsong, Choo Hyunseung, Ed., ed: Springer Berlin Heidelberg, 2006, pp. 11-20.
+
+[6]	E. C. J. Kim, "An Ontology-Based Context Model in a Smart Home," M. L. Gavrilova, Gervasi Osvaldo, Kumar Vipin, Tan C. J. Kenneth, Taniar David, Laganá Antonio, Mun Youngsong, Choo Hyunseung, Ed., ed: Springer Berlin Heidelberg, 2006, pp. 11-20.
+
 [7]	M. Mitchell, C. Meyers, A. I. A. Wang, and G. Tyson, "ContextProvider: Context awareness for medical monitoring applications," in 2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, pp. 5244-5247.
+
 [8]	X. H. Wang, D. Q. Zhang, T. Gu, and H. K. Pung, "Ontology based context modeling and reasoning using OWL," in Proceedings of the Second IEEE Annual Conference on Pervasive Computing and Communications Workshops, pp. 18-22.
+
 [9]	A. K. Dey, "Understanding and Using Context," Personal and Ubiquitous Computing, vol. 5, pp. 4-7, 2001.
 
