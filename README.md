@@ -1,6 +1,6 @@
 # Context Ontology
 
-In this section, context ontology is described. As mentioned previously, context is modeled with context ontology encoded in OWL. By using OWL, domain ontologies are defined and shared across different platforms and people. An ontology refers to a formal representation of a set of concepts in a specific domain and the relationships between those concepts [1, 2].
+Context is modeled with context ontology encoded in OWL. By using OWL, domain ontologies are defined and shared across different platforms and people. An ontology refers to a formal representation of a set of concepts in a specific domain and the relationships between those concepts [1, 2].
 
 Protégé [3] ontology editor is used to develop context ontology. During the development, other related work [2, 4-8] on how to develop a context ontology are taken into consideration and the best practices from these work are adopted.
 
@@ -28,7 +28,7 @@ The context ontology deals with quality of context similar to [4]. Physical sens
 
 [2]	M. D. Rodriguez, R. F. Navarro, J. Favela, and J. Hoey, "An Ontological Representation Model to Tailor Ambient Assisted Interventions for Wandering," in AAAI Fall Symposium: Artificial Intelligence for Gerontechnology.
 
-[3]	S. C. for Biomedical Informatics Research, "Protégé," ed, 2017.
+[3]	Stanford Center for Biomedical Informatics Research, "Protégé," 2017.
 
 [4]	T. Gu, X. H. Wang, H. K. Pung, and D. Q. Zhang, "An Ontology-based Context Model in Intelligent Environments," in Proceedings of Communication Networks and Distributed Systems Modeling and Simulation Conference, pp. 270-275.
 
