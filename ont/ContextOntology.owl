@@ -1,0 +1,1270 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#"
+     xml:base="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActionPlan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasActionPlan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasActionPlan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActionPlan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasActivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Activity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAltitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasAltitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Altitude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasBoundary -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasBoundary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Boundary"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCPU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCPU">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCommEntity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCommEntity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CommHistory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCommHistory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCommHistory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CommHistory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasComputationalProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasComputationalProfile">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasProfile"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasCondition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Condition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasContact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Contact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasContext">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasDevice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasDevice">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasGeoPoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasGeoPoint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Boundary"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#GeoPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasHeading -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasHeading">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Heading"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasHumidity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasHumidity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Humidity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLatitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLatitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#GeoPoint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLongitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasLongitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#GeoPoint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Longitude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasMood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasMood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Mood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasMovement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasMovement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasPerson">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Contact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasPersonalProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasPersonalProfile">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasProfile"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasProfile">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Profile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasRAM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasRAM">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasRealFeel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasRealFeel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RealFeel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasResolution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasResolution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasSocial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasSocial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasSpeed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Speed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasTemperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Temperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasWeather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasWeather">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasWind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasWind">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasZName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#hasZName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#locatedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#nearby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#nearby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#proximityToCaregiver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#proximityToCaregiver">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#actionVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#actionVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressCity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressCity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressCountry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressCountry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressPostalCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressPostalCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#addressVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#altUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#altUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Altitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#altValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#altValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Altitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#batteryLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#batteryLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#brand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#brand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuBrand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuBrand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuCache -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuCache">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuClockSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuClockSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#cpuModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#dateOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#dateOfBirth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#day">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#dementiaLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#dementiaLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#deviceState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#deviceState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#headingUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#headingUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Heading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#headingVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#headingVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Heading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#humidityUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#humidityUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Humidity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#humidityVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#humidityVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Humidity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lastPlugged -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lastPlugged">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#latUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#latUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#latValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#latValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lonUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lonUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lonValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#lonValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#model">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#moodDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#moodDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Mood"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramBrand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramBrand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramClockSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramClockSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ramSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#resolutionWidth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#rfUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#rfUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RealFeel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#rfVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#rfVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RealFeel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#speedUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#speedUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Speed"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#speedVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#speedVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Speed"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#state -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#state">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#surname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#surname">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#tempUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#tempUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Temperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#tempVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#tempVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Temperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#time">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#vehicle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#vehicle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#weatherLongDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#weatherLongDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#weatherShortDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#weatherShortDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDirection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDirectionUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windDirectionUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windSpeedUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#windSpeedUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#zoneNameVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#zoneNameVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#zoneTypeVal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#zoneTypeVal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActionPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActionPlan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Address"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Altitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Altitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Boundary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CPU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CommHistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#CommHistory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalProfile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalProfile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Computer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Computer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Condition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Contact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Contact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#GeoPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#GeoPoint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Heading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Heading"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Humidity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Indoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Indoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Latitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Longitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#MobileDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#MobileDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Mood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Mood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Movement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Outdoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Outdoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#PersonalProfile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RAM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RealFeel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#RealFeel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Resolution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#SmartPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#SmartPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ComputationalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Speed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Temperature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Weather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Wind"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ZoneType"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
