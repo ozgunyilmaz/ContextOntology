@@ -947,6 +947,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActEmergencyNotification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActEmergencyNotification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActNotification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActNotification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActWarning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#ActWarning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ozgun/ontologies/2017/1/ContextOntology#Action"/>
